@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     background: #2e2e2c;
 }
 ::selection {
@@ -35,21 +35,10 @@ body {
     background-color: rgba(66,66,66,.6);
 }
 #rin-bg{
-    width: 600px;
-    margin: auto;
-    text-align: center;
-    margin-top: calc(50vh - 200px);
-}
-#rin-header {
-    top: 0;
-    width: 100vw;
-    position: absolute;
-}
-#rin-header .rin-soild {
-    width: 100%;
-    height: 3px;
-    background: #757575;
-    box-shadow: 0 0 2px 0 #000;
+    /*width: 600px;*/
+    /*margin: auto;*/
+    /*text-align: center;*/
+    /*margin-top: calc(50vh - 200px);*/
 }
 #rin-main {
     width: 600px;
@@ -57,18 +46,60 @@ body {
     text-align: center;
     margin-top: calc(50vh - 200px);
 }
-#rin-main #rin-headimg {
-    margin: auto;
-    width: 150px;
-    height: 150px;
-    cursor: pointer;
+#rin-headimg{
+    background-image: url('/assets/img/logo.jpg');
     border-radius: 50%;
-    transition: all .5s;
+    height: 150px;
+    width:150px;
+    margin: auto;
+    cursor: pointer;
     background-size: cover;
     border: 3px solid #fff;
     background-repeat: no-repeat;
     box-shadow: 0 0 8px 0 rgba(0,0,0,.55);
+    -webkit-transition: 0.4s;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    -moz-transition: -moz-transform 0.4s ease-out;
+    /*animation-timing-function:cubic-bezier(0,0,.07,1)!important;*/
 }
-#rin-headimg{
-    background-image: url('/assets/img/logo.jpg');
+
+#rin-headimg:hover{
+    -webkit-transform: rotateZ(360deg);
+    /*-moz-transform: rotateZ(360deg);*/
+    transform:rotate(360deg) scale(1.2);
+    /*border-width:5px;*/
+    /*animation:avatar .5s*/
+}
+.rin-name{
+    margin-top: 20px;
+    color:white;
+    font-size: 26px;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(255,255,255,.55);
+    /*letter-spacing:8px;*/
+}
+.rin-description{
+    color:white;
+    text-shadow: 0 0 8px rgba(255,255,255,.55);
+    font-size: 20px;
+    margin-top: 10px;
+}
+#rin-footer {
+    bottom: 0;
+    margin: auto;
+    width: 100vw;
+    position: absolute;
+    padding: 10px 0 10px 0;
+}
+#rin-footer div {
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255,255,255,.79);
+}
+#rin-footer div a {
+    color: #2196f3;
+    font-weight: 700;
+    transition: all .3s;
+    text-decoration: none;
 }
