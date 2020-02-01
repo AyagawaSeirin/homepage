@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    background: #2e2e2c;
+}
+::selection {
+    color: #e0e0e0;
+    background: rgba(255,64,129,.35);
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+#rin-bg{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-color: #818181;
+    background-image: url('/assets/img/background.jpg');
+}
+#rin-bg:after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: -1;
+    position: fixed;
+    background-color: rgba(66,66,66,.6);
+}
+#rin-bg{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: calc(50vh - 200px);
+}
+#rin-header {
+    top: 0;
+    width: 100vw;
+    position: absolute;
+}
+#rin-header .rin-soild {
+    width: 100%;
+    height: 3px;
+    background: #757575;
+    box-shadow: 0 0 2px 0 #000;
+}
+#rin-main {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: calc(50vh - 200px);
+}
+#rin-main #rin-headimg {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .5s;
+    background-size: cover;
+    border: 3px solid #fff;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.55);
+}
+#rin-headimg{
+    background-image: url('/assets/img/logo.jpg');
+}
