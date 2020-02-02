@@ -1,0 +1,27 @@
+#rin-main{
+    margin: auto;
+    /*text-align: center;*/
+    width: 95%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+.rin-card{
+    padding:20px 25px;
+    /*background-color:rgba(255,255,255,0.1);*/
+    background-color: rgba(66,66,66,.3);
+}
+.rin-card-title{
+    font-size: 30px;
+    color:white;
+    margin-bottom: 5px;
+}
+.rin-card-title2{
+    font-size: 21px;
+    color:white;
+    margin-bottom: 5px;
+}
+.rin-card-content{
+    font-size: 14px;
+    color:white;
+    margin-bottom: 5px;
+}

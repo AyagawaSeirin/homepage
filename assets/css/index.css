@@ -1,0 +1,62 @@
+#rin-main {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: calc(50vh - 200px);
+}
+@media (max-width: 600px){
+    #rin-main {
+        width: 95%;
+    }
+}
+#rin-headimg{
+    background-image: url('/assets/img/logo.jpg');
+    border-radius: 50%;
+    height: 150px;
+    width:150px;
+    margin: auto;
+    cursor: pointer;
+    background-size: cover;
+    border: 3px solid #fff;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.55);
+    -webkit-transition: 0.4s;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    -moz-transition: -moz-transform 0.4s ease-out;
+    /*animation-timing-function:cubic-bezier(0,0,.07,1)!important;*/
+}
+
+#rin-headimg:hover{
+    -webkit-transform: rotateZ(360deg);
+    /*-moz-transform: rotateZ(360deg);*/
+    transform:rotate(360deg) scale(1.2);
+    /*border-width:5px;*/
+    /*animation:avatar .5s*/
+}
+.rin-name{
+    margin-top: 20px;
+    color:white;
+    font-size: 26px;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(255,255,255,.55);
+    /*letter-spacing:8px;*/
+}
+.rin-description{
+    color:white;
+    text-shadow: 0 0 8px rgba(255,255,255,.55);
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    letter-spacing:8px;
+}
+.rin-tr {
+    width: 80%;
+    height: 2px;
+    margin: auto;
+    background: rgba(255,255,255,.3);
+}
+.rin-btn {
+    color:white;
+    margin-top: 10px;
+}
