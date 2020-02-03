@@ -53,3 +53,9 @@ body {
     transition: all .3s;
     text-decoration: none;
 }
+.rin-tr {
+    width: 80%;
+    height: 2px;
+    margin: auto;
+    background: rgba(255,255,255,.3);
+}
