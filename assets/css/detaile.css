@@ -48,6 +48,11 @@
     margin-right: 10px;
     min-width:100px!important;
 }
+@media only screen and (min-width: 321px) and (max-width: 1024px) {
+    .rin-btn {
+        margin-bottom: 10px;
+    }
+}
 .rin-btn-blue{
     border-bottom: 1.5px solid #28A9E0;
 }
