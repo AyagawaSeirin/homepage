@@ -10,7 +10,7 @@
     }
 }
 #rin-headimg{
-    background-image: url('/assets/img/logo.jpg');
+    background-image: url('https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@latest/assets/img/logo.jpg');
     border-radius: 50%;
     height: 150px;
     width:150px;
@@ -24,15 +24,11 @@
     -webkit-transition: -webkit-transform 0.4s ease-out;
     transition: transform 0.4s ease-out;
     -moz-transition: -moz-transform 0.4s ease-out;
-    /*animation-timing-function:cubic-bezier(0,0,.07,1)!important;*/
 }
 
 #rin-headimg:hover{
     -webkit-transform: rotateZ(360deg);
-    /*-moz-transform: rotateZ(360deg);*/
     transform:rotate(360deg) scale(1.2);
-    /*border-width:5px;*/
-    /*animation:avatar .5s*/
 }
 .rin-name{
     margin-top: 20px;
@@ -40,7 +36,6 @@
     font-size: 26px;
     font-weight: 700;
     text-shadow: 0 0 8px rgba(255,255,255,.55);
-    /*letter-spacing:8px;*/
 }
 .rin-description{
     color:white;
