@@ -1,13 +1,13 @@
 #rin-main{
     margin: auto;
-    /*text-align: center;*/
     width: 95%;
     max-width: 1200px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .rin-card{
     padding:20px 25px;
-    /*background-color:rgba(255,255,255,0.1);*/
+    padding-bottom:0;
     background-color: rgba(66,66,66,.3);
 }
 .rin-card-title{
@@ -42,4 +42,59 @@
 }
 .mdui-tooltip{
     margin-top:10px!important;
+}
+.rin-btn {
+    color:white;
+    margin-right: 10px;
+    min-width:100px!important;
+}
+.rin-btn-blue{
+    border-bottom: 1.5px solid #28A9E0;
+}
+.rin-btn-blue:hover{
+    background-color: #28A9E0;
+    transition: all .3s;
+}
+.rin-btn-pink{
+    border-bottom: 1.5px solid #F9A2A8;
+}
+.rin-btn-pink:hover{
+    background-color: #F9A2A8;
+    transition: all .3s;
+}
+.rin-btn-black{
+    border-bottom: 1.5px solid #353535;
+}
+.rin-btn-black:hover{
+    background-color: #353535;
+    transition: all .3s;
+}
+.rin-tr{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+#last {
+    text-align: center;
+}
+#last .rin-card-title2{
+    letter-spacing : 10px;
+    margin-bottom: 10px;
+}
+#last .rin-card-content{
+    font-size: 12px;
+    letter-spacing: 1em;
+    opacity: .5;
+}
+#footer{
+    text-align: center;
+}
+#footer .rin-card-content{
+    font-size: 12px;
+    opacity: .5;
+}
+#footer div a {
+    color: #2196f3;
+    font-weight: 700;
+    transition: all .3s;
+    text-decoration: none;
 }
