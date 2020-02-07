@@ -7,6 +7,11 @@
     justify-content: center;
     flex-flow: column nowrap;
 }
+@media(max-height:777px){
+    #rin-main {
+     height: auto;
+    }
+   }
 .rin-card{
     padding:20px 25px;
     padding-bottom:0;
