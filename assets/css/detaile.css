@@ -1,9 +1,11 @@
 #rin-main{
-    margin: auto;
+    display: flex;
     width: 95%;
+    margin: auto;
+    height: 100vh;
     max-width: 1200px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    justify-content: center;
+    flex-flow: column nowrap;
 }
 .rin-card{
     padding:20px 25px;
