@@ -42,6 +42,10 @@
     color: white;
     padding-bottom: 2px;
 }
+.rin-btn-left {
+    width:100%;
+    margin-top: 5px;
+}
 
 /*@media (max-height: 777px) {*/
 /*    #rin-main {*/
@@ -143,6 +147,10 @@
     .rin-left-slogan {
         font-size: 15px;
     }
+    .rin-btn-left {
+        width:auto;
+        /*margin-top: 5px;*/
+    }
 }
 
 .rin-btn-blue {
@@ -172,9 +180,45 @@
     transition: all .3s;
 }
 
+.rin-btn-white {
+    border-bottom: 1.5px solid white;
+}
+
+.rin-btn-white:hover {
+    background-color: white;
+    color: black;
+    transition: all .3s;
+}
+
 .rin-tr {
     margin-top: 40px;
     margin-bottom: 20px;
+}
+
+.rin-card-article{
+    padding:15px;
+    /*margin-bottom: 10px;*/
+}
+.rin-article-title{
+    color: white;
+    font-size: 18px;
+}
+.rin-article-content{
+    padding-top:10px;
+    color: white;
+    font-size: 14px;
+}
+#works a{
+    text-decoration:none;
+}
+#article a{
+    text-decoration:none;
+}
+.rin-article-more{
+    text-decoration:none;
+    color: white;
+    font-size: 13px;
+    margin-left: 5px;
 }
 
 #last {
