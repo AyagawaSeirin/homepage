@@ -21,7 +21,7 @@ body {
     background-attachment: fixed;
     background-position: 50% 50%;
     background-color: #818181;
-    background-image: url('https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@latest/assets/img/background.jpg');
+    background-image: url('/assets/img/background.jpg');
 }
 #rin-bg:after {
     top: 0;
